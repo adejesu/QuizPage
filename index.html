@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Quiz Appliation</h1>
+    <h2>General Knowledge</h2>
+    <div class="quiz_wrapper">
+        
+        <div class="question" id="questionBox">
+            Whis is the longest bridge in Nigeria?
+        </div>
+        <div class="options" id="correct">
+            <ul id="ul">
+                <li id="op1" onclick="button(this)">Ibeto Bridge</li>
+                <li id="op2" onclick="button(this)" >River Niger bridge</li>
+                <li id="op3" onclick="button(this)">Third Mainland Bridge</li>
+            </ul>    
+        </div>
+        <div class="score">
+            <div class="next">
+                <button type="button" onclick="next()">Next</button>
+            </div>
+            <div class="score-card">
+                Score : <span id="scoreCard">0</span>
+            </div>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
